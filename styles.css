@@ -132,6 +132,16 @@
   margin: 0;
 }
 
+.services-cards :hover{
+  
+  background-color: var(--color-negro);
+
+.card i, h3 , .card h3, i{
+    color: var(--color-white);
+}
+
+}
+
 /*Portafolio*/
 
 .portfolio {
@@ -191,6 +201,12 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+.card a:hover {
+  background-color: var(--color-negro);
+  color: var(--color-white);
+}
+
 
 /*footer*/
 .footer {
